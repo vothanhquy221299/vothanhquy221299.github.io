@@ -1,37 +1,82 @@
 <html> 
 	<head>
-		<title> Exercises </title>
+		<title> Lab 1 </title>
+		<style>
+	body {
+	background-color: Aliceblue;
+}
+
+	#container{
+	height:400px;
+	margin-top: 80px;
+	}
+	#header {
+	width: 1200px;
+	height: 100px;
+	margin:auto;
+	margin-top: -80px;
+	font-family: tahoma;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	}
+	#header  p{
+	font-size: 80px;
+	}
+	#content{
+	background-color : #dadada;
+    margin-top:50px;
+	height: 60px;
+	margin:auto;
+	}
+	#content > ul > li {
+	
+		list-style: none;
+		float: left;
+	    padding: 20px;
+	
+	}
+	ul > li:hover{
+	background-color: brown;
+	
+	}
+	ul > li > a:hover {
+	 color: white;
+	 font-weight: bold;
+	 cursor: pointer;
+	}
+	#content ul > li:hover #sub_list {
+	display: block;
+	}
+		
+	#sub_list {
+	position:absolute;
+	top: 174px;
+	margin-left: -20px;
+	width: 140px;
+	height: 222px;
+	background: #dadada;
+	list-type-style: none;
+	}
+	#sub_list  {
+		display : none;
+	}
+	#sub_list > ul > .sub_menu {
+	list-style: none;
+	height: 30px;
+	width:140px;
+	padding-top: 2px;
+	padding-top: 5px;
+	margin-left: -40px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	}
+	#sub_list > ul > .sub_menu a{
+	margin-left: 20px;
+
+	}
+	
+</style>
 	</head>
-<body style = "background-color: AliceBlue;">
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;
-<font size = "20"> <b style = "color : FireBrick" > Human Computer Interaction </font> </b>
-<hr/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;
-<a href = "Index.html"> <font size = "5">  Website </font></a>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;
-<a href = "Exercise.html"> <font size = "5"> <b style = "color : Navy"> Exercise </font></b></a>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;
-<a href = "About.html"> <font size = "5"> About </font></a>
-<hr/>
-<h1> List of Exercise </h1>
-Lab1: <a href = "Lab1.html"> Click here </a>
-&nbsp;&nbsp;&nbsp;
-Lab2: <a href = "Lab2.html"> Click here </a>
-&nbsp;&nbsp;&nbsp;
-Lab3: <a href = "Lab3.html"> Click here </a>
-&nbsp;&nbsp;&nbsp;
-Lab4: <a href = "Lab4.html"> Click here </a>
-&nbsp;&nbsp;&nbsp;
-Lab5: <a href = "Lab5.html"> Click here </a>
-&nbsp;&nbsp;&nbsp;
-Lab6: <a href = "Lab6.html"> Click here </a>
+	
 	</body>
 </html>
