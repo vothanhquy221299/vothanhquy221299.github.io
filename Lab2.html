@@ -1,0 +1,173 @@
+<html> 
+	<head>
+		<title> Lab 1 </title>
+		<style>
+	body {
+	background-color: Aliceblue;
+}
+
+	#container{
+	height:400px;
+	margin-top: 80px;
+	}
+	#header {
+	width: 1200px;
+	height: 100px;
+	margin:auto;
+	margin-top: -80px;
+	font-family: tahoma;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	}
+	#header  p{
+	font-size: 80px;
+	}
+	#content{
+	background-color : #dadada;
+    margin-top:50px;
+	height: 60px;
+	margin:auto;
+	}
+	#content > ul > li {
+	
+		list-style: none;
+		float: left;
+	    padding: 20px;
+	
+	}
+	ul > li:hover{
+	background-color: brown;
+	
+	}
+	ul > li > a:hover {
+	 color: white;
+	 font-weight: bold;
+	 cursor: pointer;
+	}
+	#content ul > li:hover #sub_list {
+	display: block;
+	}
+		
+	#sub_list {
+	position:absolute;
+	top: 174px;
+	margin-left: -20px;
+	width: 140px;
+	height: 222px;
+	background: #dadada;
+	list-type-style: none;
+	}
+	#sub_list  {
+		display : none;
+	}
+	#sub_list > ul > .sub_menu {
+	list-style: none;
+	height: 30px;
+	width:140px;
+	padding-top: 2px;
+	padding-top: 5px;
+	margin-left: -40px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	}
+	#sub_list > ul > .sub_menu a{
+	margin-left: 20px;
+	}
+	.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+	
+</style>
+	</head>
+<body <div id = "container">
+	<div id="header"><p> Human computer interaction </p></div>
+	
+	<div id = "content">
+	<ul>
+	<li> <a href="Index.html"> WEBSITE </a></li>
+	<li>
+	<a> EXERCISE </a>
+	<div id = "sub_list" >
+	<ul>
+		<li class="sub_menu"><a href ="Lab1.html">Lab 1</a></li>
+		<li class="sub_menu"><a href ="Lab2.html">Lab 2</a></li>
+		<li class="sub_menu"><a href ="Lab3.html">Lab 3</a></li>
+		<li class="sub_menu"><a href ="Lab4.html">Lab 4</a></li>
+		<li class="sub_menu"><a href ="Lab5.html">Lab 5</a></li>
+		<li class="sub_menu"><a href ="Lab6.html">Lab 6</a></li>
+	</ul>
+    </div>
+    </li>
+    <li><a>ABOUT</a></li>
+     </ul>
+    </div>
+	</div>
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</button>
+		<button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
+		<button class="tablinks" onclick="openTab(event, 'Implement')">Implement</button>
+	</div>
+	<div id="Requirement" class = "tabcontent">
+	</div>
+	<div id="Design" class = "tabcontent">
+	<h2> Design On Paper </h2>
+		<img src = "Paper2.jpg" width = 1000px height = 600px/>
+		<a href = "Paper2.jpg" download = "Paper2.jpg" style = "font-size : 20px; background-color : red; color : black; padding : 10px; margin : 20px"> Download </a> 
+		<h2> Design On Figma </h2>
+		<img src = "Figma2.jpg" width = 1000px height = 600px/>
+		<a href = "Figma2.png" download = "Figma2.png" style = "font-size : 20px; background-color : red; color : black; padding : 10px; margin : 20px"> Download </a> 
+		<br/><br/>
+		<a href = "DownloadAll.zip" download = "DownloadAll.zip" style = "font-size : 20px; background-color : red; color : black; padding : 10px; margin : 20px"> Download All</a> 
+	</div>
+	<div id="Implement" class = "tabcontent">
+		<h3> Implement </h3>
+	</div>
+	<script>
+	function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+	</body>
+</html>
