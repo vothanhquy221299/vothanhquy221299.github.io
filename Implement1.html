@@ -22,6 +22,7 @@ width: 150px;
 height:40px;
 margin-top:50px;
 margin-left: 30px;
+border-radius: 20px;
 }
 
 #header #ele2 {
@@ -35,16 +36,18 @@ width: 30%;
 float: left;
 margin-top: 40px;
 
+
 }
 #header #ele2 #button button {
 width: 80%;
 height:50px;
+border-radius: 30px;
 }
 #header #ele2 #menu {
 height:50px;
 width: 70%;
 float: right;
-margin-top: 20px;
+margin-top: -20px;
 
 }
 a {
@@ -63,12 +66,14 @@ position: absolute;
 left: 20px;
 font-size: 40px;
 color:black;
+margin-top: 20px;
 }
 a.t2{
 position: absolute;
-right: 100px;
+right: 200px;
 font-size: 40px;
 color: black;
+margin-top: 20px;
 }
 img.iconsearch{
 position: absolute;
@@ -100,16 +105,14 @@ height: 490px;
 padding-bottom:15px
 }
 #table #table1 {
-height : 450px;
+height : 455px;
 width: 70%;
-background-color: pink;
 float:left;
 
 }
 #table #table2 {
-height : 450px;
+height : 455px;
 width: 30%;
-background-color: yellow;
 float:right;
 }
 #table1 #sub1{
@@ -236,15 +239,20 @@ margin-top: 110px;
 color: black;
 }
 #inf1 {
-  background-color: red;
-  height : 30%;
-  margin-top: -16px;
-  
+height : 25%;
+margin-top: -16px;  
 }
 #inf2 {
-  background-color : blue;
-  height: 70%;
-  }
+height: 15%;
+}
+#inf3 {
+margin-top: -30px;
+height: 10%;
+}
+#inf4 {
+height: 15%;
+margin-top: -24px;
+}
 </style>
 </head>
 <body>
@@ -308,9 +316,23 @@ color: black;
 		
 		<div id=table2>
 			<div id= "inf1">
-			<p>sadsafdsafsf</p>
+			<p style = "font-size: 25px; "> Traveller 1:  Adults &emsp;&emsp;&emsp;&emsp; $41.99 <br/>
+				Booking free: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $0.00
+				<br/><br/><br/>
+			</p>
+			<hr>
 			</div>	
-			<div id="inf2">adasfasfsaf</div>
+			<div id="inf2">
+			<p style = "font-size: 25px; "> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Trip total: <b style = "font-size: 30px;">$41</b>.99 <br/>
+				Rates are  quoted  in US Dollars. </p>
+			</div>
+			<div id= "inf3">
+				<p style= "font-size: 30px;"><b> Important information flight </b></p>
+			</div>
+			<div id="inf4">
+			<p style = "font-size: 25px; ">- Tickets are <b>non-refundable</b> and <b>non transferable</b>. Name changes are not allowed. <br/>
+										   - Visit Jetstar Pacific with bag for additional information about seats, bags, and other restrictions. </p>
+			</div>
 	</div>
 </div>
 </div>
