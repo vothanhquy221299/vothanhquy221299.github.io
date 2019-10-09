@@ -2,15 +2,15 @@
 	<head>
 		<title> Exercises </title>
 		<style>
-	body {
+body {
 	background-color: Aliceblue;
 }
 
-	#container{
+#container{
 	height:400px;
 	margin-top: 80px;
-	}
-	#header {
+}
+#header {
 	width: 1200px;
 	height: 100px;
 	margin:auto;
@@ -18,65 +18,104 @@
 	font-family: tahoma;
 	text-shadow: 2px 2px 5px blue;
 	text-align: center;
-	}
-	#header  p{
+}
+#header  p{
 	font-size: 80px;
-	}
-	#content{
+}
+#content{
 	background-color : #dadada;
     margin-top:50px;
 	height: 60px;
 	margin:auto;
-	}
-	#content > ul > li {
-	
-		list-style: none;
-		float: left;
-	    padding: 20px;
-	
-	}
-	ul > li:hover{
-	background-color: brown;
-	
-	}
-	ul > li > a:hover {
-	 color: white;
-	 font-weight: bold;
-	 cursor: pointer;
-	}
-	#content ul > li:hover #sub_list {
-	display: block;
-	}
-		
-	#sub_list {
-	position:absolute;
-	top: 174px;
-	margin-left: -20px;
-	width: 140px;
-	height: 222px;
-	background: #dadada;
-	list-type-style: none;
-	}
-	#sub_list  {
-		display : none;
-	}
-	#sub_list > ul > .sub_menu {
+}
+#content > ul > li {
 	list-style: none;
-	height: 30px;
-	width:140px;
-	padding-top: 2px;
-	padding-top: 5px;
-	margin-left: -40px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	}
-	#sub_list > ul > .sub_menu a{
-	margin-left: 20px;
+	float: left;
+	padding: 20px;
+}
+ul > li:hover{
+	background-color: brown;
+}
+ul > li > a:hover {
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+#content ul > li:hover #sub_list {
+	display: block;
+}	
+/* Style the tab */
+.tab-exercise {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
 
-	}
-	
-</style>
+/* Style the buttons that are used to open the tab content */
+.tab-exercise button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab-exercise button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab-exercise button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+	</style>
 	</head>
+	<body <div id = "container">
+	<div id="header"><p> Human computer interaction </p></div>
 	
+	<div id = "content">
+	<ul>
+	<li> <a href="Index.html"> WEBSITE </a></li>
+	<li>
+	<a href="Exercise.html"> EXERCISE </a>
+    </li>
+    <li><a>ABOUT</a></li>
+     </ul>
+    </div>
+	</div>
+	<div class="tab-exercise">
+		<button class="tablinks" onclick="openTab(event, 'Lab1')"><a href="Lab1.html">Lab 1</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab2')"><a href="Lab2.html">Lab 2</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab3')"><a href="Lab3.html">Lab 3</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab4')"><a href="Lab4.html">Lab 4</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab5')"><a href="Lab5.html">Lab 5</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab6')"><a href="Lab6.html">Lab 6</button>
+	</div>
+	<script>
+	function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontente.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 	</body>
 </html>
