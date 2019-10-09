@@ -47,36 +47,45 @@
 	#content ul > li:hover #sub_list {
 	display: block;
 	}
-		
-	#sub_list {
-	position:absolute;
-	top: 174px;
-	margin-left: -20px;
-	width: 140px;
-	height: 222px;
-	background: #dadada;
-	list-type-style: none;
-	}
-	#sub_list  {
-		display : none;
-	}
-	#sub_list > ul > .sub_menu {
-	list-style: none;
-	height: 30px;
-	width:140px;
-	padding-top: 2px;
-	padding-top: 5px;
-	margin-left: -40px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	}
-	#sub_list > ul > .sub_menu a{
-	margin-left: 20px;
-	}
 	.tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+}
+/* Style the tab */
+.tab-exercise {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab-exercise button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab-exercise button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab-exercise button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 /* Style the buttons inside the tab */
@@ -118,26 +127,19 @@
 	<ul>
 	<li> <a href="Index.html"> WEBSITE </a></li>
 	<li>
-	<a> EXERCISE </a>
-	<div id = "sub_list" >
-	<ul>
-		<li class="sub_menu"><a href ="Lab1.html">Lab 1</a></li>
-		<li class="sub_menu"><a href ="Lab2.html">Lab 2</a></li>
-		<li class="sub_menu"><a href ="Lab3.html">Lab 3</a></li>
-		<li class="sub_menu"><a href ="Lab4.html">Lab 4</a></li>
-		<li class="sub_menu"><a href ="Lab5.html">Lab 5</a></li>
-		<li class="sub_menu"><a href ="Lab6.html">Lab 6</a></li>
-	</ul>
-    </div>
+	<a href="Exercise.html"> EXERCISE </a>
     </li>
     <li><a>ABOUT</a></li>
      </ul>
     </div>
 	</div>
-	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</button>
-		<button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
-		<button class="tablinks" onclick="openTab(event, 'Implement')">Implement</button>
+	<div class="tab-exercise">
+		<button class="tablinks" onclick="openTab(event, 'Lab1')"><a href="Lab1.html">Lab 1</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab2')"><a href="Lab2.html">Lab 2</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab3')"><a href="Lab3.html">Lab 3</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab4')"><a href="Lab4.html">Lab 4</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab5')"><a href="Lab5.html">Lab 5</button>
+		<button class="tablinks" onclick="openTab(event, 'Lab6')"><a href="Lab6.html">Lab 6</button>
 	</div>
 	<div id="Requirement" class = "tabcontent">
 		<p style = "font-size: 20px;"> Choose any object in real life, such as: <b>students, subjects, teachers, </b>... 
