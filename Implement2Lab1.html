@@ -9,7 +9,7 @@ height : 768px;
 }
 #header {
 	background-color:#9e9e9e8c;
-	height:150px;
+	height:100px;
 }
 #ele1 {
 	height:100px;
@@ -73,7 +73,7 @@ body {
 	margin-top: -50px;
 	height: 100px;
 	font-weight: bold;
-	background : yellow;
+
 }
 #sub{
 width: 800px;
@@ -102,22 +102,21 @@ float :right;
 }
 #table {
 	 height : 496px;
- 	background : red;
+ 	
 
 }
 #content {
 	height : 496px;
 	width : 40%;
-	background : blue;
 }
 #checkbox{
-	background: brown;
-	width: 280px;
+	width: 320px;
 	height: 50px;
-	margin-left: 20px;
-	font-size: 20px;
+	margin-left: 0px;
+	font-size: 25px;
 	font-weight: bold;
 	font-style: italic;
+	padding: 5px;
 }
 #checkbox input {
 	margin-left: 30px;
@@ -227,6 +226,36 @@ img.iconcalendar{
 	border: none;
 	padding-left: 0px;
 }
+#button{
+	float: left;
+}
+#type{
+	float: left;
+	background-color: white;
+	height: 30px;
+	width: 23	0px;
+	padding :5px;
+	margin-left: 30px;
+    border-radius: 10px;
+	margin-top: 0px;
+	border: none;
+	padding-left: 0px;
+}
+#button{
+	padding: 10px;
+	height: 40px;
+	width: 	150px;
+	margin-left: 100px;
+	border-radius: 20px;
+}
+img.iconclick{
+	margin-left: 200px;
+	margin-top: -60px;
+}
+#typeticket{
+	border: none;
+	margin-left: 5px;
+}
 </style>
 </head>
 <body>
@@ -266,14 +295,14 @@ img.iconcalendar{
 		<div id="leave">
 			<div id="icon"> <img class="icongps" src="images/gps.jpg"/></div>
 			<div id="input">
-				<input id= "leavingfrom" type = "text"  placeholder ="City or airport">
+				<input id= "leavingfrom" type = "text"  placeholder ="City or Airport">
 			</div>
 		</div>
 	 <p style = "font-size:25px; padding-left: 30px; margin-top: -20px;"><i>Going to...</i></p>
 		<div id="go">
 			<div id="icon"> <img class= "icongps" src="images/gps.jpg"></div>
 			<div>
-				<input id="goingto" type = "text" placeholder="City or airport">
+				<input id="goingto" type = "text" placeholder="City or Airport">
 			</div>
 		</div>
 	
@@ -288,14 +317,14 @@ img.iconcalendar{
 		
 		<div id="time">
 			<div id="depart"> 
-				<p style = "font-size:25px; padding-left: 30px; margin-top: 0px;"><i></i>Departing</i</p>
+				<p style = "font-size:25px; padding-left: 30px; margin-top: 0px;"><i>Departing</i></p>
 				<div id="indepart">
 					<div><input id="departing" type = "text"></div>
 					<div id="icon"> <img class="iconcalendar" src="images/calendar.jpg"/></div>
 				</div>
 			</div>
 			<div id="return"> 
-				<p style = "font-size:25px; padding-left: 30px; margin-top: 0px;"><i>Returning</i></p>
+				<p style = "font-size:25px; padding-left: 0px; margin-top: 0px;"><i>Returning</i></p>
 				<div id="inreturn">
 					<div><input id="returning" type="text"></div>
 					<div id="icon"> <img class="iconcalendar" src="images/calendar.jpg"/></div>
@@ -303,13 +332,14 @@ img.iconcalendar{
 			</div>
 		</div>
 		
-		<div id="type">
-			<div input id ="type" type = "text" placeholder="Type of ticket"></div>
-			<div>
-				<button id="button">GO NOW</button>
+		<div id="last">
+			<div id ="type">
+			<div> <input id= "typeticket" type = "text"  placeholder ="Type of ticket"></div>
+			<div id="icon"> <img class="iconclick" src="images/Click.jpg"/></div>
 			</div>
+			<button id="button">GO NOW</button>
 		</div>
-		
+	</div>
 	 </form>
   </div>
 </div>
