@@ -76,11 +76,11 @@ body {
 	background : yellow;
 }
 #sub{
-
 width: 800px;
 height: 100px;
 font-size : 70px;
 float : left;
+padding-left: 30px;
 }
 
 #icon {
@@ -101,16 +101,132 @@ float :right;
 	 border: none;
 }
 #table {
- height : 496px;
- background : red;
+	 height : 496px;
+ 	background : red;
 
 }
 #content {
-height : 496px;
-width : 40%;
-background : blue;
+	height : 496px;
+	width : 40%;
+	background : blue;
+}
+#checkbox{
+	background: brown;
+	width: 280px;
+	height: 50px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#checkbox input {
+	margin-left: 30px;
 }
 
+img.icongps{
+	height: 30px;
+	width: 30px;
+	background-color: #dadada;
+	margin : auto;
+	margin-left: 5px;
+}
+#leave{
+	background-color: white;
+	height: 25px;
+	width: 300px;
+	padding :5px;
+	margin-left: 30px;
+    border-radius: 30px;
+	margin-top: -20px;
+}
+#leavingfrom{
+	border: none;
+	padding-left: 30px;
+}
+img.icongps{
+	height: 30px;
+	width: 30px;
+	background-color: #dadada;
+	margin : auto;
+	margin-left: 5px;
+}
+#go{
+	background-color: white;
+	height: 25px;
+	width: 300px;
+	padding :5px;
+	margin-left: 30px;
+    border-radius: 10px;
+	margin-top: -20px;
+}
+#goingto{
+	border: none;
+	padding-left: 30px;
+
+}
+img.icongps{
+	height: 30px;
+	width: 30px;
+	background-color: #dadada;
+	margin : auto;
+	margin-left: 5px;
+}
+#leave{
+	background-color: white;
+	height: 25px;
+	width: 300px;
+	padding :5px;
+	margin-left: 30px;
+    border-radius: 10px;
+	margin-top: -20px;
+}
+#leavingfrom{
+	border: none;
+	padding-left: 30px;
+}
+#time{
+	float: left;
+}
+#depart{
+	float: left;
+}
+#return{
+	margin-left: 50px;
+	float: left;
+}
+img.iconcalendar{
+	height: 25px;
+	width: 25px;
+	background-color: #dadada;
+	margin-left: 180px;
+	margin-top: -31px;
+}
+#indepart{
+	background-color: white;
+	height: 25px;
+	width: 210px;
+	padding :5px;
+	margin-left: 30px;
+    border-radius: 10px;
+	margin-top: -20px;
+}
+#departing{
+	border: none;
+	padding-left: 0px;
+}
+#inreturn{
+	background-color: white;
+	height: 25px;
+	width: 210px;
+	padding :5px;
+	margin-left: 0px;
+    border-radius: 10px;
+	margin-top: -20px;
+}
+#returning{
+	border: none;
+	padding-left: 0px;
+}
 </style>
 </head>
 <body>
@@ -146,51 +262,51 @@ background : blue;
 <div id="table">
   <div id="content">
      <form>
-	 <p>Leaving from...</p>
+	 <p style = "font-size:25px; padding-left: 30px;"><i>Leaving from...</i></p>
 		<div id="leave">
-			<div id="icon"> <img class="gps.jpg"> </div>
+			<div id="icon"> <img class="icongps" src="images/gps.jpg"/></div>
 			<div id="input">
-				<input id= "leaving from" type = "text"  placeholder ="City or airport">
+				<input id= "leavingfrom" type = "text"  placeholder ="City or airport">
 			</div>
 		</div>
-	 <p>Going to...</p>
+	 <p style = "font-size:25px; padding-left: 30px; margin-top: -20px;"><i>Going to...</i></p>
 		<div id="go">
-			<div id="icon"> <img</div>
+			<div id="icon"> <img class= "icongps" src="images/gps.jpg"></div>
 			<div>
-				<input>
+				<input id="goingto" type = "text" placeholder="City or airport">
 			</div>
 		</div>
-		
-		<div>
-			<input type="checkbox" value='Round trip'>
+	
+		<div id="checkbox">
+			<input type="checkbox" name="Round trip">
+			<label for="round trip"> Round trip</label>
 			<input type="checkbox" value='One way'>
+			<label for="one way">One way</label>
 			<input type="checkbox" vaue='Multi Destination'>
+			<label for="multi destination">Multi Destination</label>
 		</div>
 		
 		<div id="time">
 			<div id="depart"> 
-				<p></p>
+				<p style = "font-size:25px; padding-left: 30px; margin-top: 0px;"><i></i>Departing</i</p>
 				<div id="indepart">
-					<div><input></div>
-					<div>
-					</div>
+					<div><input id="departing" type = "text"></div>
+					<div id="icon"> <img class="iconcalendar" src="images/calendar.jpg"/></div>
 				</div>
 			</div>
 			<div id="return"> 
-				<p></p>
+				<p style = "font-size:25px; padding-left: 30px; margin-top: 0px;"><i>Returning</i></p>
 				<div id="inreturn">
-					<div><input></div>
-					<div>
-					</div>
+					<div><input id="returning" type="text"></div>
+					<div id="icon"> <img class="iconcalendar" src="images/calendar.jpg"/></div>
 				</div>
 			</div>
 		</div>
 		
-		<div>
+		<div id="type">
+			<div input id ="type" type = "text" placeholder="Type of ticket"></div>
 			<div>
-				<input>
-			</div>
-			<div>
+				<button id="button">GO NOW</button>
 			</div>
 		</div>
 		
