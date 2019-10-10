@@ -1,6 +1,7 @@
 <html> 
 	<head>
 		<title> Lab 1 </title>
+		<link href="styleLab1.css" rel="stylesheet" media="screen,print"/>
 		<style>
 body {
 	background-color: Aliceblue;
@@ -9,7 +10,7 @@ body {
 	height:180px;
 	margin-top: 80px;
 }
-#header {
+#first {
 	width: 1200px;
 	height: 100px;
 	margin:auto;
@@ -96,30 +97,31 @@ ul > li > a:hover {
 	border: 1px solid #ccc;
 	border-top: none;
 }
-
 </style>
+
+
 </head>
 <body>
 <div id = "container">
 	
-	<div id="header"><p style="font-size: 80px;"> Human computer interaction</p></div>
-	<div id = "content">
+	<div id="first"><p style="font-size: 80px;"> Human computer interaction</p></div>
+	<div id = "content" >
 	<ul>
-	<li> <a href="Index.html"> WEBSITE </a></li>
-	<li>
-	<a href="Exercise.html"> EXERCISE </a>
+	<li > <a href="Index.html" style="color: black;"> WEBSITE </a></li>
+	<li >
+	<a href="Exercise.html" style="color: black;"> EXERCISE </a>
     </li>
-    <li><a>ABOUT</a></li>
+    <li ><a style="color: black;">ABOUT</a></li>
      </ul>
     </div>
 	</div>
 	<div class="tab-exercise">
-		<button class="tablinks" onclick="openTab(event, 'Lab1')"><a href="Lab1.html">Lab 1</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab2')"><a href="Lab2.html">Lab 2</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab3')"><a href="Lab3.html">Lab 3</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab4')"><a href="Lab4.html">Lab 4</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab5')"><a href="Lab5.html">Lab 5</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab6')"><a href="Lab6.html">Lab 6</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab1')"><a href="Lab1.html" style="color: black;">Lab 1</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab2')"><a href="Lab2.html" style="color: black;">Lab 2</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab3')"><a href="Lab3.html" style="color: black;">Lab 3</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab4')"><a href="Lab4.html" style="color: black;">Lab 4</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab5')"><a href="Lab5.html" style="color: black;">Lab 5</a></button>
+		<button class="tablinks" onclick="openTab(event, 'Lab6')"><a href="Lab6.html" style="color: black;">Lab 6</a></button>
 	</div>
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</button>
@@ -146,7 +148,93 @@ ul > li > a:hover {
 		<a href = "DownloadAll1.zip" download = "DownloadAll1.zip" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download All</a> 
 	</div>
 	<div id="Implement" class = "tabcontent">
-		<a href = "Implement1Lab1.html"> Implement1 </a>
+		<h1 style="text-align: center;">HOME</h1>
+		<div style="position: relative;">
+				<div id=img> 
+						<img class="search" src="images/search.png"/>
+						<img class="iconsearch" src="images/iconsearch.png"/>
+					</div> 
+					
+					 <div id=header>
+						 <div id=ele1>
+						   <button>Add your property</button>
+						 </div>
+						 <div id=ele2>
+						 <div id=button>	 <button>Your trip</button></div>
+						<div id=menu>
+							<a>Home</a>
+							<a>News</a>
+							<a>About Us</a>
+						</div>
+						 </div>
+						</div>
+					
+					
+					 <div id=section1>
+						<div id=title1>
+							<a class="t1"> Review your trip </a>
+							<a class="t2"> Trip summary </a>
+						</div>
+					 </div>
+					 
+					 <div id=section2>
+						<div id=table>
+							<div id=table1>	
+								<div id=sub1>
+									<a class="s1"> Tue, Oct 01 </a>
+									<a class="s2"> From &emsp; Tan Son Nhat Airport(SGA) </a>
+									<br/>
+									<a class="s3"> To &emsp;&emsp;&nbsp;&nbsp; Noi Bai Airport(NBA) </a>
+									<br/>
+									<img class="jetstar" src="images/jetstar pacific.png"/>
+									<a class="s4"> Jetstart Pacific with bag </a>
+									<br/>
+									<a class="s6"> 4:00 AM </a>
+									<img class="arrow" src="images/arrow.png"/>
+									<a class="s7"> 6:10AM </a>
+									<a class="s8"> 2h10m, Nonstop </a>
+									<a class="s9"> Not Yet </a>
+									<br/>
+									<a class="s10"> SGA </a>
+									<a class="s11"> NBA </a>
+								</div>
+								<div id=sub2>
+									<img class="add" src="images/add.png"/>
+									<a class="s5"> Add another flight </a>
+								</div>
+								<div id=sub3>
+									<button id="button">Continue booking</button>
+									
+								</div>
+							</div>
+							
+							<div id=table2>
+								<div id= "inf1">
+								<p style = "font-size: 25px; "> Traveller 1:  Adults &emsp;&emsp;&emsp;&emsp; $41.99 <br/>
+									Booking free: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $0.00
+									<br/><br/><br/>
+								</p>
+								<hr>
+								</div>	
+								<div id="inf2">
+								<p style = "font-size: 25px; "> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Trip total: <b style = "font-size: 30px;">$41</b>.99 <br/>
+									Rates are  quoted  in US Dollars. </p>
+								</div>
+								<div id= "inf3">
+									<p style= "font-size: 30px;"><b> Important information flight </b></p>
+								</div>
+								<div id="inf4">
+								<p style = "font-size: 25px; ">- Tickets are <b>non-refundable</b> and <b>non transferable</b>. Name changes are not allowed. <br/>
+															   - Visit Jetstar Pacific with bag for additional information about seats, bags, and other restrictions. </p>
+								</div>
+						</div>
+					</div>
+					</div>
+		</div>
+
+		<h1 style="text-align: center;">BOOKING</h1>
+		<a href="Implement2Lab1.html" style="color: black;"><h3 style="text-align: center;">Click here</h3>
+	
 	</div>
 	<script>
 	function openTab(evt, tabName) {
