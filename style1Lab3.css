@@ -1,0 +1,86 @@
+#fpattern{
+    background: gray;
+}
+#first{
+    background: #ffb106;
+}
+#search{
+    background: red;
+}
+.iconsearch {
+	margin : auto;
+    padding-top: 5px;
+    float: left;
+    margin-left: 420px;
+}
+#fill{
+	background-color: white;
+	margin : auto;
+	padding :3px;
+    border-radius: 30px;
+    width: 500px;
+}
+#menu{
+    background: violet;
+    height: 40px;
+}
+#ele1{
+  float: left;
+    width: 40%;
+    height: 40px;
+    background-color: blue;
+}
+#content-2-3 {
+    float: right;
+    width: 60%;
+    height: 40px;
+    background-color: yellow;
+}
+#ele2{
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    float: left;
+    margin-left: 200px;
+}
+#ele3{
+    width: 60%;
+    height: 40px;
+    background-color: brown;
+    margin-left: 400px;
+}
+#second{
+    background: white;
+}
+#check{
+    margin-left: 30px;
+}
+#src{
+    margin-left: 30px;
+}
+#des{
+    margin-left: 60px;
+}
+#depart{
+    margin-left: 60px;
+}
+#return{
+    margin-left: 60px;
+}
+#lable{
+    float: left;
+    width: 80%;
+}
+#smallsearch{
+    width: 20%;
+    float: right;
+}
+#sentences{
+    margin-left: 30px;
+}
+#third{
+    background: blue;
+}
+#forth{
+    background: green;
+}
