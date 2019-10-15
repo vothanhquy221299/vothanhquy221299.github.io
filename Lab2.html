@@ -1,6 +1,12 @@
 <html> 
 	<head>
 		<title> Lab 2 </title>
+		<meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<style>
 body {
 	background-color: Aliceblue;
@@ -24,7 +30,7 @@ body {
 #content{
 	background-color : #dadada;
     margin-top:50px;
-	height: 60px;
+	height: 70px;
 	margin:auto;
 }
 #content > ul > li {
@@ -45,6 +51,7 @@ ul > li > a:hover {
 	overflow: hidden;
 	border: 1px solid #ccc;
 	background-color: #f1f1f1;
+	margin-top: 60px;
 }
 /* Style the buttons that are used to open the tab content */
 .tab-exercise button {
@@ -98,20 +105,27 @@ ul > li > a:hover {
 	border: 1px solid #ccc;
 	border-top: none;
 }
+.tab-exercise button:hover{
+	background-color: brown;
+}
+.tab-exercise:hover {
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
 
 	
 </style>
 	</head>
-<body <div id = "container">
+<body>
+	 <div id = "container">
 	<div id="header"><p> Human computer interaction </p></div>
 	<div id="name"> <p> <h2 style= "text-align:center; color: navy;"> Võ Thành Quý - 17130184 </h2></p> </div>
 	<div id = "content">
 	<ul>
-	<li> <a href="Index.html"> WEBSITE </a></li>
-	<li>
-	<a href="Exercise.html" style="color:red"> EXERCISE </a>
-    </li>
-    <li><a>ABOUT</a></li>
+	<li> <a href="Index.html" style="font-size: 20px;"> WEBSITE </a></li>
+	<li><a href="Exercise.html" style="color:red; font-size: 20px;"> EXERCISE </a></li>
+    <li><a href="About.html" style="font-size: 20px;">ABOUT</a></li>
      </ul>
     </div>
 	</div>
