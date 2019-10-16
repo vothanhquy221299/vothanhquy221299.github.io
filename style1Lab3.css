@@ -1,12 +1,11 @@
 #fpattern{
-    background: gray;
+    background: rgba(196, 196, 196, 0.42);
+    height: 820px;
 }
 #first{
     background: #ffb106;
 }
-#search{
-    background: red;
-}
+
 .iconsearch {
 	margin : auto;
     padding-top: 5px;
@@ -21,32 +20,39 @@
     width: 500px;
 }
 #menu{
-    background: violet;
     height: 40px;
 }
 #ele1{
   float: left;
     width: 40%;
     height: 40px;
-    background-color: blue;
+}
+#ele1 button{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #D3F7F7;
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 #content-2-3 {
     float: right;
     width: 60%;
     height: 40px;
-    background-color: yellow;
 }
 #ele2{
     width: 20%;
     height: 40px;
-    background-color: red;
     float: left;
     margin-left: 200px;
 }
+#ele2 button{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C7E7EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 150px;
+}
 #ele3{
-    width: 60%;
+    width: 49%;
     height: 40px;
-    background-color: brown;
     margin-left: 400px;
 }
 #second{
@@ -73,14 +79,91 @@
 }
 #smallsearch{
     width: 20%;
-    float: right;
+    float: right;   
+}
+#smallsearch button{
+    background: #51BFD7;
+    border: 1px solid #FFFFBB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
 }
 #sentences{
     margin-left: 30px;
 }
 #third{
-    background: blue;
+    margin-left: 30px;
 }
-#forth{
-    background: green;
+#detail1{
+    background: white;
+    width: 1250px;
+    height: 150px;
+    margin: auto;
 }
+#para1{
+    float: left;
+    margin-left: 20px;
+}
+#select1{
+    float: right;
+}
+#select1 button{
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: #ffb106;
+    width: 130px;
+    height: 40px;   
+    border: 1px solid #FFFFBB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#detail2{
+    background: white;
+    width: 1250px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+#para2{
+    float: left;
+    margin-left: 20px;
+}
+#select2{
+    float: right;
+}
+#select2 button{
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: #ffb106;
+    width: 130px;
+    height: 40px;   
+    border: 1px solid #FFFFBB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#detail3{
+    background: white;
+    width: 1250px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+#para3{
+    float: left;
+    margin-left: 20px;
+}
+#select3{
+    float: right;
+}
+#select3 button{
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: #ffb106;
+    width: 130px;
+    height: 40px;   
+    border: 1px solid #FFFFBB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
