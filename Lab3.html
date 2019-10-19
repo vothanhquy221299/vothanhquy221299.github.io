@@ -1,191 +1,193 @@
-<html> 
-	<head>
-		<title> Lab 3 </title>
+
+	<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+		<title>Lab 3</title>
 		<meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<style>
-body {
-	background-color: Aliceblue;
-}
-#container{
-	height:180px;
-	margin-top: 80px;
-}
-#header {
-	width: 1200px;
-	height: 100px;
-	margin:auto;
-	margin-top: -80px;
-	font-family: tahoma;
-	text-shadow: 2px 2px 5px blue;
-	text-align: center;
-}
-#header  p{
-	font-size: 80px;
-}
-#content{
-	background-color : #dadada;
-    margin-top:50px;
-	height: 70px;
-	margin:auto;
-}
-#content > ul > li {
-	list-style: none;
-	float: left;
-	padding: 20px;
-}
-ul > li:hover{
-	background-color: brown;
-}
-ul > li > a:hover {
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-}
-	/* Style the tab */
-.tab-lab {
-	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #f1f1f1;
-	margin-top: 60px;
-	}
-/* Style the buttons that are used to open the tab content */
-.tab-lab button {
-	background-color: inherit;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab-lab button:hover {
-	background-color: #ddd;
-}
-/* Create an active/current tablink class */
-.tab-lab button.active {
-	background-color: #ccc;
-}
-.tab {
-	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-	background-color: inherit;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	transition: 0.3s;
-	font-size: 17px;
-}
-/* Change background color of buttons on hover */
-.tab button:hover {
-	background-color: #ddd;
-}
-/* Create an active/current tablink class */
-.tab button.active {
-	background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-	display: none;
-	padding: 6px 12px;
-	border: 1px solid #ccc;
-	border-top: none;
-}
-.tab-exercise {
-	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #f1f1f1;
-}
-/* Style the buttons that are used to open the tab content */
-.tab-exercise button {
-	background-color: inherit;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab-exercise button:hover {
-	background-color: #ddd;
-}
-/* Create an active/current tablink class */
-.tab-exercise button.active {
-	background-color: #ccc;
-}
-.tab-lab button:hover{
-	background-color: brown;
-}
-.tab-lab:hover {
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-}
-.tab-exercise button:hover{
-	background-color: brown;
-}
-.tab-exercise:hover {
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-}
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	
-</style>
-	</head>
-<body> 
-	<div id = "container">
-	<div id="header"><p> Human computer interaction </p></div>
-	<div id="name"> <p> <h2 style= "text-align:center; color: navy;"> Võ Thành Quý - 17130184 </h2></p> </div>
-	<div id = "content">
-	<ul>
-	<li><a href="Index.html" style="font-size: 20px;"> WEBSITE </a></li>
-	<li><a href="Exercise.html" style="color:red; font-size: 20px;"> EXERCISE </a> </li>
-    <li><a href ="About.html" style="font-size: 20px;">ABOUT</a></li>
-     </ul>
-    </div>
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+	
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+	
+		<link rel="stylesheet" href="css/aos.css">
+	
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="stylecss.css" media="screen, print"/>
+		<link href="style1Lab3.css" rel="stylesheet" media="screen, print"/>
+	  </head>
+	  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+		  
+		  
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+			<div class="container">
+			  <a class="navbar-brand" href="index.html"><span>H</span>ci 2019</a>
+			  <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			  </button>
+	
+			  <div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+				  <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
+				  <li class="nav-item"><a href="#about-section" class="nav-link"><span></span></a></li>
+				  <li class="nav-item"><a href="Lab1.html" class="nav-link"><span>Lab 1</span></a></li>
+				  <li class="nav-item"><a href="Lab2.html" class="nav-link"><span>Lab 2</span></a></li>
+				  <li class="nav-item"><a href="Lab3.html" class="nav-link"><span>Lab 3</span></a></li>
+				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 4</span></a></li>
+				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 5</span></a></li>
+				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 6</span></a></li>
+				  <li class="nav-item"><a href="#contact-section" class="nav-link"><span>About</span></a></li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+		<div class="tab">
+				<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</a></button>
+				<button class="tablinks" onclick="openTab(event, 'Ex1')">Exercise 1</a></button>
+				<button class="tablinks" onclick="openTab(event, 'Ex2')">Exercise 2</a></button>
+		</div>
+		<div class="tab-lab">
+				<button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
+				<button class="tablinks" onclick="openTab(event, 'Implement')">Implement</button>
+		</div>
+	<div id="Design" class = "tabcontent">
+		<h2> Design On Paper </h2>
+		<img src = "Paper1Lab3.jpg" width = 1000px height = 600px/>
+		<a href = "Paper1Lab3.jpg" download = "Paper1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
+		<h2> Design On Figma </h2>
+		<img src = "Figma1Lab3.jpg" width = 1000px height = 600px/>
+		<a href = "Figma1Lab3.jpg" download = "Figma1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
+		<br/><br/>
+		<a href = "DownloadAll3.zip" download = "DownloadAll3.zip" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download All</a> 
 	</div>
-	<div class="tab-lab">
-		<button class="tablinks" onclick="openTab(event, 'Lab1')"><a href="Lab1.html">Lab 1</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab2')"><a href="Lab2.html">Lab 2</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab3')"><a href="Lab3.html" style="color:red">Lab 3</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab4')"><a href="Lab4.html">Lab 4</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab5')"><a href="Lab5.html">Lab 5</a></button>
-		<button class="tablinks" onclick="openTab(event, 'Lab6')"><a href="Lab6.html">Lab 6</a></button>
-    </div>
-    <div class="tab-exercise">
-        <button class="tablinks" onclick="openTab(event, 'Ex1')"><a href="Ex1Lab3.html">Ex1</a></button>
-        <button class="tablinks" onclick="openTab(event, 'Ex2')"><a href="Ex2Lab3.html">Ex2</a></button>
-    </div>
-	<script>
-	function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-	</body>
-</html>
+	<div id="Implement" class = "tabcontent">
+		<h3> F - Pattern </h3>
+		<div id="fpattern"> 
+			<div id="firsts">
+				<div id="search">
+						<div id="iconsearch"> <img class="iconsearch" src="images/iconsearch.png"/></div>
+						<div id="fill"> <input type="text" placeholder="Search..."></div>
+				</div>
+				<div id="menu">
+					<div id=ele1>
+						<button style="font-weight: bold;"> ADD YOUR PROPERTY </button>
+					</div>
+					<div id="content-2-3">
+							<div id=ele2>
+								<button style="font-weight: bold;"> YOUR TRIP </button>
+							   </div>
+							<div id=ele3>
+								<a style="color:white; font-weight: bold; font-size: 19px;">Home</a> &emsp;&emsp;&emsp;
+								<a style="color:white; font-weight: bold; font-size: 19px;">News</a> &emsp;&emsp;&emsp;
+								<a style="color:white; font-weight: bold; font-size: 19px;">About Us</a>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div id="second" >
+				<div id="check">
+					<input type="checkbox" name="Round trip">
+					<label for="round trip" style="font-size: 19px;"> Round trip</label> &emsp;
+					<input type="checkbox" name='One way'>
+					<label for="one way" style="font-size: 19px;">One way</label> &emsp;
+					<input type="checkbox" name='Multi-city'>
+					<label for="multi destination" style="font-size: 19px;">Multi-city</label>
+				</div>
+				<div id="lable">
+					<input id="src" type = "text"  placeholder ="Tân Sơn Nhất(SGA)">
+					<input id= "des" type = "text"  placeholder ="Nội Bài(NBA)">
+					<input id= "depart" type = "text"  placeholder ="01/10/2019">
+					<input id= "return" type = "text"  placeholder ="02/10/2019">
+				</div>
+				<div id="smallsearch"> <button style="font-weight: bold; ">Search</button></div>
+				<div id="sentences">
+					<p style="font-size: 20px;"> 1 traveller, All airline, Economy &emsp; <u style="color: #19B0A7; font-size: 20px;"> Show more options </u> </p>
+				</div>
+			</div>
+			<div id="third">
+				<p> <b style="font-size: 31px;">Select your departure to Noi Bai Tue</b> <b style="font-size: 20px;"> &emsp; Oct 01 2019</b></p>
+				<p style="font-size: 20px;">Price are round trip person, include all taxes and fes, but do not include baggages fees</p>
+			</div>
+			<div id="forth">
+				<div id="detail1">
+					<div id="para1"> 
+						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+					</div>
+					<div id="select1"> 
+						<button style="font-weight: bold;"> Select </button>
+					</div>
+				</div>
+				<div id="detail2">
+					<div id="para2"> 
+						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+					</div>
+					<div id="select2"> 
+						<button style="font-weight: bold;"> Select </button>
+					</div>
+				</div>
+				<div id="detail3">
+					<div id="para3"> 
+						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+					</div>
+					<div id="select3"> 
+						<button style="font-weight: bold;"> Select </button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.easing.1.3.js"></script>
+	  <script src="js/jquery.waypoints.min.js"></script>
+	  <script src="js/jquery.stellar.min.js"></script>
+	  <script src="js/owl.carousel.min.js"></script>
+	  <script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="js/aos.js"></script>
+	  <script src="js/jquery.animateNumber.min.js"></script>
+	  <script src="js/scrollax.min.js"></script>
+	  
+	  <script src="js/main.js"></script>
+	  <script>
+		function openTab(evt, tabName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(tabName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+	</script>
+	  </body>
+	</html>
+</div>
