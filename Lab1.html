@@ -9,7 +9,12 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    	<!-- ==================> BOOTSTRAP -->
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -27,22 +32,16 @@
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="stylecss.css" media="screen, print"/>
-  </head>
+    
+</head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-		  <a class="navbar-brand" href="index.html"><span>H</span>ci 2019</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
+		  <a class="navbar-brand" href="index.html">Võ Thành Quý - 17130184</a>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
-			  <li class="nav-item"><a href="#about-section" class="nav-link"><span></span></a></li>
-			  <li class="nav-item"><a href="Lab1.html" class="nav-link"><span>Lab 1</span></a></li>
+			  <li class="nav-item"><a href="Lab1.html" class="nav-link active"><span>Lab 1</span></a></li>
 			  <li class="nav-item"><a href="Lab2.html" class="nav-link"><span>Lab 2</span></a></li>
 			  <li class="nav-item"><a href="Lab3.html" class="nav-link"><span>Lab 3</span></a></li>
 			  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 4</span></a></li>
@@ -53,35 +52,40 @@
 	      </div>
 		</div>
 	</nav>
-	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</button>
-		<button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
-		<button class="tablinks" onclick="openTab(event, 'Implement')">Implement</button>
-	</div>
-	<div id="Requirement" class = "tabcontent">
-		<p style = "font-size: 20px;"> Choose any object in real life, such as: <b>students, subjects, teachers, </b>... 
-		to design a functional web on app to <b>add, edit, delete, search</b> for that object.</p>
-	</div>
-	<div id="Design" class = "tabcontent">
-	<h6> Design On Paper </h6>
-		<img src = "PaperLab11.jpg" width = 1000px height = 600px/>
-		<a href = "PaperLab11.jpg" download = "PaperLab11.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
-		<img src = "PaperLab12.jpg" width = 1000px height = 600px/>
-		<a href = "PaperLab12.jpg" download = "PaperLab12.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
-	<h6> Design On Figma </h6>
-		<img src = "FigmaLab11.jpg" width = 1000px height = 600px/>
-		<a href = "FigmaLab11.jpg" download = "FigmaLab11.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
-		<img src = "FigmaLab12.jpg" width = 1000px height = 600px/>
-		<a href = "FigmaLab12.jpg" download = "FigmaLab12.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
-		<br/><br/>
-		<a href = "DownloadAll1.zip" download = "DownloadAll1.zip" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download All</a> 
-	</div>
-	<div id="Implement" class = "tabcontent">
-		<h5">HOME</h5>
-		<a href="Implement2Lab1.html" ><h6>Click here</h6>
-		<h5>BOOKING</h5>
-		<a href="Implement1Lab1.html" ><h6>Click here</h6>
-	</div>
+	<div class="sub-container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#menu1">Requirement</a></li>
+      <li><a data-toggle="tab" href="#menu2">Design</a></li>
+      <li><a data-toggle="tab" href="#menu3">Implement</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="menu1" class = "tab-pane active">
+        <p style = "font-size: 20px;"> Choose any object in real life, such as: <b>students, subjects, teachers, </b>... 
+        to design a functional web on app to <b>add, edit, delete, search</b> for that object.</p>
+      </div>
+      <div id="menu2" class = "tab-pane fade">
+        <h2> Design On Paper </h2>
+          <img src = "PaperLab11.jpg" width = 1000px height = 600px/>
+          <a href = "PaperLab11.jpg" download = "PaperLab11.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
+          <img src = "PaperLab12.jpg" width = 1000px height = 600px/>
+          <a href = "PaperLab12.jpg" download = "PaperLab12.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
+        <h2> Design On Figma </h2>
+          <img src = "FigmaLab11.jpg" width = 1000px height = 600px/>
+          <a href = "FigmaLab11.jpg" download = "FigmaLab11.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
+          <img src = "FigmaLab12.jpg" width = 1000px height = 600px/>
+          <a href = "FigmaLab12.jpg" download = "FigmaLab12.jpg" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download </a> 
+          <br/><br/>
+          <a href = "DownloadAll1.zip" download = "DownloadAll1.zip" style = "font-size : 20px; background-color : CornflowerBlue; color : black; padding : 10px; margin : 20px;text-decoration: none;"> Download All</a> 
+        </div>
+        <div id="menu3" class = "tab-pane fade">
+          <h5">HOME</h5>
+          <a href="Implement2Lab1.html" ><h6>Click here</h6>
+          <h5>BOOKING</h5>
+          <a href="Implement1Lab1.html" ><h6>Click here</h6>
+        </div>
+    </div>
+    </div>
+	
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
@@ -100,11 +104,15 @@
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="index.html"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="Lab1.html"><span class="icon-long-arrow-right mr-2"></span>Lab 1</a></li>
+                <li><a href="Lab2.html"><span class="icon-long-arrow-right mr-2"></span>Lab 2</a></li>
+                <li><a href="Lab3.html"><span class="icon-long-arrow-right mr-2"></span>Lab 3</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 3</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 4</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 5</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 6</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
