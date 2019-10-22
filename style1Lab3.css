@@ -18,6 +18,13 @@
 	padding :3px;
     border-radius: 30px;
     width: 500px;
+  
+}
+#fill input{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 #menu{
     height: 40px;
