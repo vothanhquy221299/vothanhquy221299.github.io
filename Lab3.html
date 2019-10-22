@@ -10,9 +10,14 @@
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-	
+			<!-- ==================> BOOTSTRAP -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+			<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
 		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 		<link rel="stylesheet" href="css/animate.css">
 	
@@ -35,18 +40,13 @@
 		  
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 			<div class="container">
-			  <a class="navbar-brand" href="index.html"><span>H</span>ci 2019</a>
-			  <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			  </button>
-	
+			  <a class="navbar-brand" href="index.html">Võ Thành Quý - 17130184</a>
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav nav ml-auto">
 				  <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
-				  <li class="nav-item"><a href="#about-section" class="nav-link"><span></span></a></li>
 				  <li class="nav-item"><a href="Lab1.html" class="nav-link"><span>Lab 1</span></a></li>
 				  <li class="nav-item"><a href="Lab2.html" class="nav-link"><span>Lab 2</span></a></li>
-				  <li class="nav-item"><a href="Lab3.html" class="nav-link"><span>Lab 3</span></a></li>
+				  <li class="nav-item"><a href="Lab3.html" class="nav-link active"><span>Lab 3</span></a></li>
 				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 4</span></a></li>
 				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 5</span></a></li>
 				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Lab 6</span></a></li>
@@ -55,109 +55,187 @@
 			  </div>
 			</div>
 		</nav>
-		<div class="tab">
-				<button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</a></button>
-				<button class="tablinks" onclick="openTab(event, 'Ex1')">Exercise 1</a></button>
-				<button class="tablinks" onclick="openTab(event, 'Ex2')">Exercise 2</a></button>
-		</div>
-		<div class="tab-lab">
-				<button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
-				<button class="tablinks" onclick="openTab(event, 'Implement')">Implement</button>
-		</div>
-	<div id="Design" class = "tabcontent">
-		<h2> Design On Paper </h2>
-		<img src = "Paper1Lab3.jpg" width = 1000px height = 600px/>
-		<a href = "Paper1Lab3.jpg" download = "Paper1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
-		<h2> Design On Figma </h2>
-		<img src = "Figma1Lab3.jpg" width = 1000px height = 600px/>
-		<a href = "Figma1Lab3.jpg" download = "Figma1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
-		<br/><br/>
-		<a href = "DownloadAll3.zip" download = "DownloadAll3.zip" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download All</a> 
-	</div>
-	<div id="Implement" class = "tabcontent">
-		<h3> F - Pattern </h3>
-		<div id="fpattern"> 
-			<div id="firsts">
-				<div id="search">
-						<div id="iconsearch"> <img class="iconsearch" src="images/iconsearch.png"/></div>
-						<div id="fill"> <input type="text" placeholder="Search..."></div>
-				</div>
-				<div id="menu">
-					<div id=ele1>
-						<button style="font-weight: bold;"> ADD YOUR PROPERTY </button>
-					</div>
-					<div id="content-2-3">
-							<div id=ele2>
-								<button style="font-weight: bold;"> YOUR TRIP </button>
-							   </div>
-							<div id=ele3>
-								<a style="color:white; font-weight: bold; font-size: 19px;">Home</a> &emsp;&emsp;&emsp;
-								<a style="color:white; font-weight: bold; font-size: 19px;">News</a> &emsp;&emsp;&emsp;
-								<a style="color:white; font-weight: bold; font-size: 19px;">About Us</a>
+		<div class="sub-container">
+			<ul class="nav nav-tabs">
+			  <li class="active"><a data-toggle="tab" href="#menu1">Requirement</a></li>
+			  <li><a data-toggle="tab" href="#menu2">Exercise 1</a></li>
+			  <li><a data-toggle="tab" href="#menu3">Exercise 2</a></li>
+			</ul>
+			<div class="sub-sub-container">
+				<ul class="nav nav nav-tabs">
+				  <li><a data-toggle="tab" href="#sub1">Design</a></li>
+				  <li><a data-toggle="tab" href="#sub2">Implement</a></li>
+				</ul>
+			<div class="tab-content">
+			  <div id="sub1" class="tab-pane fade in active">
+					<h2> Design On Paper </h2>
+					<img src = "Paper1Lab3.jpg" width = 1000px height = 600px/>
+					<a href = "Paper1Lab3.jpg" download = "Paper1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
+					<h2> Design On Figma </h2>
+					<img src = "Figma1Lab3.jpg" width = 1000px height = 600px/>
+					<a href = "Figma1Lab3.jpg" download = "Figma1Lab3.jpg" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download </a> 
+					<br/><br/>
+					<a href = "DownloadAll3.zip" download = "DownloadAll3.zip" style = "font-size : 20px; background-color : CornflowerBlue ; color : black; padding : 10px; margin : 20px; text-decoration:none;"> Download All</a> 
+			  </div>
+			  <div id="sub2" class="tab-pane fade">
+					<h3> F - Pattern </h3>
+					<div id="fpattern"> 
+						<div id="firsts">
+							<div id="search">
+									<div id="iconsearch"> <img class="iconsearch" src="images/iconsearch.png"/></div>
+									<div id="fill"> <input type="text" placeholder="Search..."></div>
 							</div>
+							<div id="menu">
+								<div id=ele1>
+									<button style="font-weight: bold;"> ADD YOUR PROPERTY </button>
+								</div>
+								<div id="content-2-3">
+										<div id=ele2>
+											<button style="font-weight: bold;"> YOUR TRIP </button>
+										   </div>
+										<div id=ele3>
+											<a style="color:white; font-weight: bold; font-size: 19px;">Home</a> &emsp;&emsp;&emsp;
+											<a style="color:white; font-weight: bold; font-size: 19px;">News</a> &emsp;&emsp;&emsp;
+											<a style="color:white; font-weight: bold; font-size: 19px;">About Us</a>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div id="second" >
+							<div id="check">
+								<input type="checkbox" name="Round trip">
+								<label for="round trip" style="font-size: 19px;"> Round trip</label> &emsp;
+								<input type="checkbox" name='One way'>
+								<label for="one way" style="font-size: 19px;">One way</label> &emsp;
+								<input type="checkbox" name='Multi-city'>
+								<label for="multi destination" style="font-size: 19px;">Multi-city</label>
+							</div>
+							<div id="lable">
+								<input id="src" type = "text"  placeholder ="Tân Sơn Nhất(SGA)">
+								<input id= "des" type = "text"  placeholder ="Nội Bài(NBA)">
+								<input id= "depart" type = "text"  placeholder ="01/10/2019">
+								<input id= "return" type = "text"  placeholder ="02/10/2019">
+							</div>
+							<div id="smallsearch"> <button style="font-weight: bold; ">Search</button></div>
+							<div id="sentences">
+								<p style="font-size: 20px;"> 1 traveller, All airline, Economy &emsp; <u style="color: #19B0A7; font-size: 20px;"> Show more options </u> </p>
+							</div>
+						</div>
+						<div id="third">
+							<p> <b style="font-size: 31px;">Select your departure to Noi Bai Tue</b> <b style="font-size: 20px;"> &emsp; Oct 01 2019</b></p>
+							<p style="font-size: 20px;">Price are round trip person, include all taxes and fes, but do not include baggages fees</p>
+						</div>
+						<div id="forth">
+							<div id="detail1">
+								<div id="para1"> 
+									<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+									<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+									<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+								</div>
+								<div id="select1"> 
+									<button style="font-weight: bold;"> Select </button>
+								</div>
+							</div>
+							<div id="detail2">
+								<div id="para2"> 
+									<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+									<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+									<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+								</div>
+								<div id="select2"> 
+									<button style="font-weight: bold;"> Select </button>
+								</div>
+							</div>
+							<div id="detail3">
+								<div id="para3"> 
+									<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
+									<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
+									<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
+								</div>
+								<div id="select3"> 
+									<button style="font-weight: bold;"> Select </button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div id="second" >
-				<div id="check">
-					<input type="checkbox" name="Round trip">
-					<label for="round trip" style="font-size: 19px;"> Round trip</label> &emsp;
-					<input type="checkbox" name='One way'>
-					<label for="one way" style="font-size: 19px;">One way</label> &emsp;
-					<input type="checkbox" name='Multi-city'>
-					<label for="multi destination" style="font-size: 19px;">Multi-city</label>
-				</div>
-				<div id="lable">
-					<input id="src" type = "text"  placeholder ="Tân Sơn Nhất(SGA)">
-					<input id= "des" type = "text"  placeholder ="Nội Bài(NBA)">
-					<input id= "depart" type = "text"  placeholder ="01/10/2019">
-					<input id= "return" type = "text"  placeholder ="02/10/2019">
-				</div>
-				<div id="smallsearch"> <button style="font-weight: bold; ">Search</button></div>
-				<div id="sentences">
-					<p style="font-size: 20px;"> 1 traveller, All airline, Economy &emsp; <u style="color: #19B0A7; font-size: 20px;"> Show more options </u> </p>
-				</div>
-			</div>
-			<div id="third">
-				<p> <b style="font-size: 31px;">Select your departure to Noi Bai Tue</b> <b style="font-size: 20px;"> &emsp; Oct 01 2019</b></p>
-				<p style="font-size: 20px;">Price are round trip person, include all taxes and fes, but do not include baggages fees</p>
-			</div>
-			<div id="forth">
-				<div id="detail1">
-					<div id="para1"> 
-						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
-						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
-						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
-					</div>
-					<div id="select1"> 
-						<button style="font-weight: bold;"> Select </button>
-					</div>
-				</div>
-				<div id="detail2">
-					<div id="para2"> 
-						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
-						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
-						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
-					</div>
-					<div id="select2"> 
-						<button style="font-weight: bold;"> Select </button>
-					</div>
-				</div>
-				<div id="detail3">
-					<div id="para3"> 
-						<p style="font-size: 20px;">9:00am - 10:10am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1h10m(Nonstop) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>$83</b></p> 
-						<p style="font-size: 20px;">Jetstar Pacific with bag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SGA - NBA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Round trip</p>
-						<p style="font-size: 20px;"> <u style="color: #19B0A7">Detail & baggages fees</u></p>
-					</div>
-					<div id="select3"> 
-						<button style="font-weight: bold;"> Select </button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+			  </div>
 		
+			</div>
+			</div>
+		  </div>
 	
+		
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">About</h2>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				  <li class="ftco-animate"><a href="https://www.facebook.com/vo.thanhquy.99"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/thanhquy_jingt/"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4 ml-md-4">
+				<h2 class="ftco-heading-2">Links</h2>
+				<ul class="list-unstyled">
+					<li><a href="index.html"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+					<li><a href="Lab1.html"><span class="icon-long-arrow-right mr-2"></span>Lab 1</a></li>
+					<li><a href="Lab2.html"><span class="icon-long-arrow-right mr-2"></span>Lab 2</a></li>
+					<li><a href="Lab3.html"><span class="icon-long-arrow-right mr-2"></span>Lab 3</a></li>
+					<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 3</a></li>
+					<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 4</a></li>
+					<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 5</a></li>
+					<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lab 6</a></li>
+					<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Services</h2>
+				<ul class="list-unstyled">
+				  <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+				  <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+				  <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
+				  <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+				  <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">Have a Questions?</h2>
+				  <div class="block-23 mb-3">
+					<ul>
+					  <li><span class="icon icon-map-marker"></span><span class="text">Domistory Area B, National University, Ho Chi Minh City</span></li>
+					  <li><a href="#"><span class="icon icon-phone"></span><span class="text">0967475709</span></a></li>
+					  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">vothanhquy233@gmail.com</span></a></li>
+					</ul>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	  
+	
+  
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
 	
 	  <script src="js/jquery.min.js"></script>
 	  <script src="js/jquery-migrate-3.0.1.min.js"></script>
