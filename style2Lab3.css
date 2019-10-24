@@ -1,0 +1,71 @@
+#zpattern{
+    margin-top: 30px;
+}
+
+#part1{
+
+}
+.iconinstagram{
+}
+#zbutton{
+    float: right;
+    width: 50%;
+    height: 100px;
+}
+#logo{
+    width: 50%;
+    float: left;
+    height:100px;
+}
+#instagram{
+    background-color: rgb(199, 188, 40);
+}
+#form{
+    width:60%;
+    float: right;
+}
+#fillform{
+    float: right;
+    width: 500px;
+    height: 500px;
+    border: top;
+    border: bottom;
+    border: left;
+    border: right;
+    margin-right: 280px;
+}
+#ff1{
+    text-align: center;
+}
+#zimage{
+    float: left;
+    width: 40%;
+    height: 500px;
+}
+.iconiphone{
+   margin-left: 230px;
+   margin-top: 20px;
+}
+#ff3_1{
+    font-size: 25px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px;
+}
+#ff3_2{
+    text-align: center; 
+    margin-top: 20px;
+    font-size: 20px;
+}
+#ff3_3{
+    text-align: center;
+    font-size: 20px;
+}
+#asimage{
+    float: left;
+    margin-left: 280px;
+}
+#ggpimage{
+    float: right;
+    margin-right: 280px;
+}
