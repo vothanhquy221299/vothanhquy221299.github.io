@@ -5,7 +5,7 @@
 	margin : auto;
     padding-top: 5px;
     float: left;
-    margin-left: 420px;
+    margin-left: 250px;
     
 }
 #fill{
@@ -15,8 +15,7 @@
     border-radius: 30px;
     width: 500px;
     font-family: Gabriola;
-
-  
+    margin-left: 250px;
 }
 #fill input{
     border-top: none;
@@ -52,11 +51,16 @@
     width: 750px;
     padding-top: 25px;
 }
-#navbar{
+#dropdown{
     color: black;
-    font-size: 36px;
+    font-size: 46px;
     margin-left: 750px;
     margin-top: -30px;
+}
+.dropdown-menu{
+    font-size: 24px;
+    font-family: Gabriola;
+    color: black;
 }
 #signup button{
     background: #C4C4C4;
@@ -71,7 +75,7 @@
     font-family: Gabriola;
     font-size: 24px;
     float: right;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-right: 50px;
 }
 #middle_row2{
@@ -137,6 +141,96 @@
     margin-top: 30px;
     padding-top: -40px;
     margin-left: 400px;
-
+    line-height: 50px;
+}
+#final{
+    width: 1000px;
+    height: 300px;
+}
+#about{
+    width: 40%;
+    float: left;
+}
+#titleabout{
+    font-family: Gabriola;
+    font-size: 44px;
+    color: black;
+    height: 60px;
+    padding-left: 50px;
+}
+#detailabout{
+    font-family: Gabriola;
+    font-size: 24px;
+    color: black;
+    padding-left: 50px;
+}
+#reply{
+    width: 40%;
+    float: right;
 
 }
+#contact{
+    width: 20%;
+    float: left;
+}  
+#titlecontact{
+    font-family: Gabriola;
+    font-size: 44px;
+    color: black;
+    height: 60px;
+    padding-left: 40px;
+}
+#detailcontact{
+    font-family: Gabriola;
+    font-size: 24px;
+    color: black;
+    padding-left: 40px;
+}
+#fillemail{
+    background-color: white;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#fillemail input{
+    font-family: Gabriola;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    color: black;
+}
+#fillcomment{
+    background-color: white;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 150px;
+}
+#fillcomment input{
+    font-family: Gabriola;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    color: black;
+}
+#send button{
+    background: #740000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-family: Gabriola;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+
+
