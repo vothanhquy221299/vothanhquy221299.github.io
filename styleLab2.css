@@ -1,5 +1,5 @@
 #whole{
-    height: 1000px;
+    height: 1100px;
 }
 #whole p{
     font-family: Montserrat;
@@ -11,46 +11,51 @@
 }
 #final {
     position: absolute;
-    background-color: tomato;
+    background-color: #C4C4C4;
 }
 #signin{
     float: left;
+    margin-top: 20px;
+
 }
 #signin button{
-    background: #63BEB9;
+    background-color: #C4C4C4;
     mix-blend-mode: hard-light;
     border-radius: 30px;
     width: 150px;
-    height: 30px;
+    height: 40px;
     color: black;
     font-family: Montserrat;
 }
 #paratext1{
-    background-color: chartreuse;
     float: right;
-    font-size: 30px;
+    font-size: 45px;
     font-family: Montserrat;
+    margin-right: 20px;
 }
 #textinleft{
-    background-color: thistle;
+    background-color: #C4C4C4;
     float: left;
     width: 60%;
 }
 #topleftpara{
-    font-size: 30px;
+    font-size: 45px;
     font-family: Montserrat;
     font-weight: bold;
+}
+#centerleftout{
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
 }
 #centerleftin{
     background-color: white;
     margin-left: 10px;
+    
 }
 #centerleft1{
     float: left;
-}
-#centerleftout{
-    margin-left: 10px;
-    background-color: white;
 }
 #name input{
     background: #C4C4C4;
@@ -81,21 +86,25 @@
 #code input{
     background: #C4C4C4;
     border: 1px solid #000000;
-    box-sizing: border-box;
+    box-sizing: border-box;     
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     height: 30px;
     width: 200px;
 }
 #textinright{
-    background-color: turquoise;
     float: right;
     width: 40%;
+    background-color: #C4C4C4;
+}
+#textinright p{
+    margin-left: 20px;
 }
 #botleft{
  background-color: white;
  margin-left: 10px;
  margin-top: 20px;
+ font-size: 20px;
 }
 #botleft11 input{
     background: #C4C4C4;
@@ -137,4 +146,18 @@
     width: 300px;
     font-family: Montserrat;
     color: black;
+}
+#topright{
+    font-size: 45px;
+    font-family: Montserrat;
+    font-weight: bold;
+    width: 800px;
+}
+#centerright p{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+#botright p{
+    font-family: Montserrat;
+    font-size: 20px;
 }
