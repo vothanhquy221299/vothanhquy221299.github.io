@@ -51,11 +51,22 @@
 }
 #centerleftin{
     background-color: white;
-    margin-left: 10px;
-    
+    margin-left: 10px;  
 }
 #centerleft1{
     float: left;
+}
+#centerleft2{
+    margin-left: 200px;
+}
+#visa{
+    float: left;
+}
+#lock{
+    float: left;
+}
+#how{
+    float: right;
 }
 #name input{
     background: #C4C4C4;
